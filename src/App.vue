@@ -7,9 +7,7 @@
         <v-img src="./assets/logo.png" width="100"></v-img>
       </v-toolbar-title>
       <v-spacer />
-      <v-toolbar-icon>
-        <v-icon>mdi-account</v-icon>
-      </v-toolbar-icon>
+      <v-icon>mdi-account</v-icon>
     </v-app-bar>
 
     <v-navigation-drawer clipped app dark v-model="drawer" :mini-variant.sync="mini" permanent>
